@@ -7,13 +7,13 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 
 ## 📊 Tiến độ hoàn thành (Progress Tracker)
 
-- **Tổng cộng**: `2 / 75` bài
-  - 🟢 **Easy**: `2 / 20`
+- **Tổng cộng**: `3 / 75` bài
+  - 🟢 **Easy**: `3 / 20`
   - 🟡 **Medium**: `0 / 48`
   - 🔴 **Hard**: `0 / 7`
 
 ```
-[█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 2.7% Completed
+[██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 4.0% Completed
 ```
 
 ---
@@ -25,7 +25,7 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 | :---: | :---: | :--- | :---: | :--- | :---: | :--- |
 | [x] | #0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Hash Map / One-pass | [Solution](01-array/0001_two_sum.md) | Lưu complement `target - num` |
 | [x] | #0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | Sliding Window / Greedy | [Solution](01-array/0121_best_time_to_buy_and_sell_stock.md) | Theo dõi `min_price` & `max_profit` |
-| [ ] | #0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | Hash Set | [Solution](01-array/0217_contains_duplicate.md) | |
+| [x] | #0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | Hash Set | [Solution](01-array/0217_contains_duplicate.md) | `set()` / Early Exit |
 | [ ] | #0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | Prefix & Suffix Products | [Solution](01-array/0238_product_of_array_except_self.md) | Không dùng phép chia |
 | [ ] | #0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | Kadane's Algorithm / DP | [Solution](01-array/0053_maximum_subarray.md) | |
 | [ ] | #0152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Medium | Dynamic Programming / Min-Max | [Solution](01-array/0152_maximum_product_subarray.md) | Chú ý số âm |
