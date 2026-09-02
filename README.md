@@ -8,7 +8,7 @@ Nơi lưu trữ, ôn tập và tối ưu hóa các bài toán thuật toán & c�
 
 | Lộ trình | Thư mục | Số lượng | Trạng thái | Mô tả |
 | :--- | :--- | :---: | :---: | :--- |
-| 🚀 **Blind 75** | [`blind-75/`](blind-75/README.md) | `75` bài | 🔄 In Progress (`4 / 75`) | Bộ 75 câu hỏi cốt lõi bao quát mọi pattern phỏng vấn |
+| 🚀 **Blind 75** | [`blind-75/`](blind-75/README.md) | `75` bài | 🔄 In Progress (`5 / 75`) | Bộ 75 câu hỏi cốt lõi bao quát mọi pattern phỏng vấn |
 | 🔮 **NeetCode 150** | `neetcode-150/` | `150` bài | ⏳ Planned | Bản mở rộng đầy đủ hơn của Blind 75 |
 | 📅 **Daily Challenges** | `daily/` | Nhiều bài | ⏳ Planned | Bài tập LeetCode Daily Challenge mỗi ngày |
 

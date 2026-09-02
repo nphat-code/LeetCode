@@ -7,13 +7,13 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 
 ## 📊 Tiến độ hoàn thành (Progress Tracker)
 
-- **Tổng cộng**: `4 / 75` bài
-  - 🟢 **Easy**: `4 / 20`
+- **Tổng cộng**: `5 / 75` bài
+  - 🟢 **Easy**: `5 / 20`
   - 🟡 **Medium**: `0 / 48`
   - 🔴 **Hard**: `0 / 7`
 
 ```
-[██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 5.3% Completed
+[██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 6.7% Completed
 ```
 
 ---
@@ -41,7 +41,7 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 | :---: | :---: | :--- | :---: | :--- | :---: | :--- |
 | [ ] | #0371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | Medium | Bitwise XOR & AND (Carry) | [Solution](02-binary/0371_sum_of_two_integers.md) | Không dùng toán tử `+`, `-` |
 | [x] | #0191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | Brian Kernighan (`n & (n - 1)`) | [Solution](02-binary/0191_number_of_1_bits.md) | Xóa bit 1 thấp nhất |
-| [ ] | #0338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | DP + Bit Manipulation | [Solution](02-binary/0338_counting_bits.md) | |
+| [x] | #0338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | DP + Bit Manipulation | [Solution](02-binary/0338_counting_bits.md) | `ans[i] = ans[i & (i - 1)] + 1` |
 | [ ] | #0268 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | XOR / Gauss Sum Formula | [Solution](02-binary/0268_missing_number.md) | |
 | [ ] | #0190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | Easy | Bit Shifting | [Solution](02-binary/0190_reverse_bits.md) | |
 
