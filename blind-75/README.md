@@ -7,13 +7,13 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 
 ## 📊 Tiến độ hoàn thành (Progress Tracker)
 
-- **Tổng cộng**: `7 / 75` bài
-  - 🟢 **Easy**: `7 / 20`
+- **Tổng cộng**: `8 / 75` bài
+  - 🟢 **Easy**: `8 / 20`
   - 🟡 **Medium**: `0 / 48`
   - 🔴 **Hard**: `0 / 7`
 
 ```
-[███░░░░░░░░░░░░░░░░░░░░░░░░░░░] 9.3% Completed
+[████░░░░░░░░░░░░░░░░░░░░░░░░░░] 10.7% Completed
 ```
 
 ---
@@ -50,7 +50,7 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 ### 3. Dynamic Programming (Quy hoạch động) — `03-dynamic-programming/`
 | Status | ID | Tên bài | Difficulty | Pattern / Key Technique | Solution | Ghi chú |
 | :---: | :---: | :--- | :---: | :--- | :---: | :--- |
-| [ ] | #0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | 1D DP / Fibonacci | [Solution](03-dynamic-programming/0070_climbing_stairs.md) | |
+| [x] | #0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | 1D DP / Fibonacci | [Solution](03-dynamic-programming/0070_climbing_stairs.md) | Fibonacci: 2 biến $O(1)$ Space |
 | [ ] | #0322 | [Coin Change](https://leetcode.com/problems/coin-change/) | Medium | Unbounded Knapsack / Bottom-up DP | [Solution](03-dynamic-programming/0322_coin_change.md) | |
 | [ ] | #0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | DP $O(N^2)$ / Binary Search $O(N \log N)$ | [Solution](03-dynamic-programming/0300_longest_increasing_subsequence.md) | Patient Sorting |
 | [ ] | #1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | 2D Grid DP | [Solution](03-dynamic-programming/1143_longest_common_subsequence.md) | |
