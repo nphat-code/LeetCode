@@ -7,13 +7,13 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 
 ## 📊 Tiến độ hoàn thành (Progress Tracker)
 
-- **Tổng cộng**: `8 / 75` bài
-  - 🟢 **Easy**: `8 / 20`
+- **Tổng cộng**: `9 / 75` bài
+  - 🟢 **Easy**: `9 / 20`
   - 🟡 **Medium**: `0 / 48`
   - 🔴 **Hard**: `0 / 7`
 
 ```
-[████░░░░░░░░░░░░░░░░░░░░░░░░░░] 10.7% Completed
+[████░░░░░░░░░░░░░░░░░░░░░░░░░░] 12.0% Completed
 ```
 
 ---
@@ -92,7 +92,7 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 ### 6. Linked List (Danh sách liên kết) — `06-linked-list/`
 | Status | ID | Tên bài | Difficulty | Pattern / Key Technique | Solution | Ghi chú |
 | :---: | :---: | :--- | :---: | :--- | :---: | :--- |
-| [ ] | #0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | Iterative (3 Pointers) / Recursive | [Solution](06-linked-list/0206_reverse_linked_list.md) | |
+| [x] | #0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | Iterative (3 Pointers) / Recursive | [Solution](06-linked-list/0206_reverse_linked_list.md) | 3 con trỏ: Lưu sau -> Bẻ ngược |
 | [ ] | #0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | Floyd's Tortoise and Hare (Slow/Fast) | [Solution](06-linked-list/0141_linked_list_cycle.md) | $O(1)$ Space |
 | [ ] | #0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | Dummy Node + Two Pointers | [Solution](06-linked-list/0021_merge_two_sorted_lists.md) | |
 | [ ] | #0023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | Min-Heap / Divide & Conquer | [Solution](06-linked-list/0023_merge_k_sorted_lists.md) | |
