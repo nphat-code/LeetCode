@@ -7,13 +7,13 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 
 ## 📊 Tiến độ hoàn thành (Progress Tracker)
 
-- **Tổng cộng**: `11 / 75` bài
-  - 🟢 **Easy**: `11 / 20`
+- **Tổng cộng**: `12 / 75` bài
+  - 🟢 **Easy**: `12 / 20`
   - 🟡 **Medium**: `0 / 48`
   - 🔴 **Hard**: `0 / 7`
 
 ```
-[████░░░░░░░░░░░░░░░░░░░░░░░░░░] 14.7% Completed
+[█████░░░░░░░░░░░░░░░░░░░░░░░░░] 16.0% Completed
 ```
 
 ---
@@ -117,7 +117,7 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 | [ ] | #0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | Sliding Window + Hash Map | [Solution](08-string/0003_longest_substring_without_repeating_characters.md) | |
 | [ ] | #0424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | Sliding Window + Max Frequency | [Solution](08-string/0424_longest_repeating_character_replacement.md) | Window len - maxFreq <= k |
 | [ ] | #0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | Sliding Window + Char Count Match | [Solution](08-string/0076_minimum_window_substring.md) | Bài mẫu mực Sliding Window |
-| [ ] | #0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | Frequency Array / Hash Map | [Solution](08-string/0242_valid_anagram.md) | |
+| [x] | #0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | Frequency Array / Hash Map | [Solution](08-string/0242_valid_anagram.md) | Đếm tần suất ký tự |
 | [ ] | #0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | Categorize by Sorted String / Count | [Solution](08-string/0049_group_anagrams.md) | |
 | [ ] | #0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | Stack | [Solution](08-string/0020_valid_parentheses.md) | |
 | [ ] | #0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | Two Pointers (Left & Right) | [Solution](08-string/0125_valid_palindrome.md) | Bỏ qua ký tự đặc biệt |
