@@ -7,13 +7,13 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 
 ## 📊 Tiến độ hoàn thành (Progress Tracker)
 
-- **Tổng cộng**: `10 / 75` bài
-  - 🟢 **Easy**: `10 / 20`
+- **Tổng cộng**: `11 / 75` bài
+  - 🟢 **Easy**: `11 / 20`
   - 🟡 **Medium**: `0 / 48`
   - 🔴 **Hard**: `0 / 7`
 
 ```
-[████░░░░░░░░░░░░░░░░░░░░░░░░░░] 13.3% Completed
+[████░░░░░░░░░░░░░░░░░░░░░░░░░░] 14.7% Completed
 ```
 
 ---
@@ -94,7 +94,7 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 | :---: | :---: | :--- | :---: | :--- | :---: | :--- |
 | [x] | #0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | Iterative (3 Pointers) / Recursive | [Solution](06-linked-list/0206_reverse_linked_list.md) | 3 con trỏ: Lưu sau -> Bẻ ngược |
 | [x] | #0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | Floyd's Tortoise and Hare (Slow/Fast) | [Solution](06-linked-list/0141_linked_list_cycle.md) | Rùa & Thỏ: $O(1)$ Space |
-| [ ] | #0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | Dummy Node + Two Pointers | [Solution](06-linked-list/0021_merge_two_sorted_lists.md) | |
+| [x] | #0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | Dummy Node + Two Pointers | [Solution](06-linked-list/0021_merge_two_sorted_lists.md) | Dummy Node + Nối đuôi |
 | [ ] | #0023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | Min-Heap / Divide & Conquer | [Solution](06-linked-list/0023_merge_k_sorted_lists.md) | |
 | [ ] | #0019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | Fast/Slow Pointers (Khoảng cách N) | [Solution](06-linked-list/0019_remove_nth_node_from_end_of_list.md) | Dùng Dummy Head |
 | [ ] | #0143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | Find Middle + Reverse + Merge | [Solution](06-linked-list/0143_reorder_list.md) | Kết hợp 3 kỹ thuật |
