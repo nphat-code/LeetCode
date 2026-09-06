@@ -7,13 +7,13 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 
 ## 📊 Tiến độ hoàn thành (Progress Tracker)
 
-- **Tổng cộng**: `13 / 75` bài
-  - 🟢 **Easy**: `13 / 20`
+- **Tổng cộng**: `14 / 75` bài
+  - 🟢 **Easy**: `14 / 20`
   - 🟡 **Medium**: `0 / 48`
   - 🔴 **Hard**: `0 / 7`
 
 ```
-[█████░░░░░░░░░░░░░░░░░░░░░░░░░] 17.3% Completed
+[█████░░░░░░░░░░░░░░░░░░░░░░░░░] 18.7% Completed
 ```
 
 ---
@@ -120,7 +120,7 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 | [x] | #0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | Frequency Array / Hash Map | [Solution](08-string/0242_valid_anagram.md) | Đếm tần suất ký tự |
 | [ ] | #0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | Categorize by Sorted String / Count | [Solution](08-string/0049_group_anagrams.md) | |
 | [x] | #0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | Stack | [Solution](08-string/0020_valid_parentheses.md) | Stack LIFO + Hash Map matching |
-| [ ] | #0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | Two Pointers (Left & Right) | [Solution](08-string/0125_valid_palindrome.md) | Bỏ qua ký tự đặc biệt |
+| [x] | #0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | Two Pointers (Left & Right) | [Solution](08-string/0125_valid_palindrome.md) | In-place $O(1)$ Space, bỏ qua ký tự đặc biệt |
 | [ ] | #0005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | Expand Around Center / DP | [Solution](08-string/0005_longest_palindromic_substring.md) | $O(N^2)$ Time, $O(1)$ Space |
 | [ ] | #0647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | Expand Around Center | [Solution](08-string/0647_palindromic_substrings.md) | |
 | [ ] | #0271 | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) 👑 | Medium | Length Prefix Delimiter (VD: `4#lint`) | [Solution](08-string/0271_encode_and_decode_strings.md) | LeetCode Premium |
