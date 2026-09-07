@@ -7,13 +7,13 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 
 ## 📊 Tiến độ hoàn thành (Progress Tracker)
 
-- **Tổng cộng**: `14 / 75` bài
-  - 🟢 **Easy**: `14 / 20`
+- **Tổng cộng**: `15 / 75` bài
+  - 🟢 **Easy**: `15 / 20`
   - 🟡 **Medium**: `0 / 48`
   - 🔴 **Hard**: `0 / 7`
 
 ```
-[█████░░░░░░░░░░░░░░░░░░░░░░░░░] 18.7% Completed
+[█████░░░░░░░░░░░░░░░░░░░░░░░░░] 20.0% Completed
 ```
 
 ---
@@ -130,7 +130,7 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 ### 9. Tree & BST (Cây & Cây tìm kiếm nhị phân) — `09-tree/`
 | Status | ID | Tên bài | Difficulty | Pattern / Key Technique | Solution | Ghi chú |
 | :---: | :---: | :--- | :---: | :--- | :---: | :--- |
-| [ ] | #0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | DFS / BFS Level Order | [Solution](09-tree/0104_maximum_depth_of_binary_tree.md) | |
+| [x] | #0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | DFS / BFS Level Order | [Solution](09-tree/0104_maximum_depth_of_binary_tree.md) | DFS `max(l, r) + 1` / BFS deque |
 | [ ] | #0100 | [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | Recursive DFS | [Solution](09-tree/0100_same_tree.md) | |
 | [ ] | #0226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Recursive DFS / BFS | [Solution](09-tree/0226_invert_binary_tree.md) | Đổi chỗ con trái - phải |
 | [ ] | #0124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Hard | Postorder DFS + Global Max | [Solution](09-tree/0124_binary_tree_maximum_path_sum.md) | Bỏ qua nhánh có tổng âm |
