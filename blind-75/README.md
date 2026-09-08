@@ -7,13 +7,13 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 
 ## 📊 Tiến độ hoàn thành (Progress Tracker)
 
-- **Tổng cộng**: `17 / 75` bài
-  - 🟢 **Easy**: `17 / 20`
+- **Tổng cộng**: `18 / 75` bài
+  - 🟢 **Easy**: `18 / 20`
   - 🟡 **Medium**: `0 / 48`
   - 🔴 **Hard**: `0 / 7`
 
 ```
-[███████░░░░░░░░░░░░░░░░░░░░░░░] 22.7% Completed
+[███████░░░░░░░░░░░░░░░░░░░░░░░] 24.0% Completed
 ```
 
 ---
@@ -136,7 +136,7 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 | [ ] | #0124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Hard | Postorder DFS + Global Max | [Solution](09-tree/0124_binary_tree_maximum_path_sum.md) | Bỏ qua nhánh có tổng âm |
 | [ ] | #0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | BFS (Queue với kích thước từng tầng) | [Solution](09-tree/0102_binary_tree_level_order_traversal.md) | |
 | [ ] | #0297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Hard | Preorder DFS / BFS String Encoding | [Solution](09-tree/0297_serialize_and_deserialize_binary_tree.md) | |
-| [ ] | #0572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | Easy | Recursive IsSameTree traversal | [Solution](09-tree/0572_subtree_of_another_tree.md) | |
+| [x] | #0572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | Easy | Recursive IsSameTree traversal | [Solution](09-tree/0572_subtree_of_another_tree.md) | |
 | [ ] | #0105 | [Construct Binary Tree from Preorder and Inorder](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | Preorder Root + Inorder Partition | [Solution](09-tree/0105_construct_binary_tree_from_preorder_and_inorder_traversal.md) | Dùng Hash Map cho Inorder |
 | [ ] | #0098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | DFS với Min/Max Range / Inorder | [Solution](09-tree/0098_validate_binary_search_tree.md) | Inorder của BST luôn tăng dần |
 | [ ] | #0230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | Inorder Traversal (Iterative / Stack) | [Solution](09-tree/0230_kth_smallest_element_in_a_bst.md) | |
