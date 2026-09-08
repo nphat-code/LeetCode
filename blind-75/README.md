@@ -7,13 +7,13 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 
 ## 📊 Tiến độ hoàn thành (Progress Tracker)
 
-- **Tổng cộng**: `16 / 75` bài
-  - 🟢 **Easy**: `16 / 20`
+- **Tổng cộng**: `17 / 75` bài
+  - 🟢 **Easy**: `17 / 20`
   - 🟡 **Medium**: `0 / 48`
   - 🔴 **Hard**: `0 / 7`
 
 ```
-[█████░░░░░░░░░░░░░░░░░░░░░░░░░] 21.3% Completed
+[███████░░░░░░░░░░░░░░░░░░░░░░░] 22.7% Completed
 ```
 
 ---
@@ -132,7 +132,7 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 | :---: | :---: | :--- | :---: | :--- | :---: | :--- |
 | [x] | #0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | DFS / BFS Level Order | [Solution](09-tree/0104_maximum_depth_of_binary_tree.md) | DFS `max(l, r) + 1` / BFS deque |
 | [x] | #0100 | [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | Recursive DFS | [Solution](09-tree/0100_same_tree.md) | So sánh cấu trúc và p.val == q.val |
-| [ ] | #0226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Recursive DFS / BFS | [Solution](09-tree/0226_invert_binary_tree.md) | Đổi chỗ con trái - phải |
+| [x] | #0226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Recursive DFS / BFS | [Solution](09-tree/0226_invert_binary_tree.md) | Đổi chỗ con trái - phải |
 | [ ] | #0124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Hard | Postorder DFS + Global Max | [Solution](09-tree/0124_binary_tree_maximum_path_sum.md) | Bỏ qua nhánh có tổng âm |
 | [ ] | #0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | BFS (Queue với kích thước từng tầng) | [Solution](09-tree/0102_binary_tree_level_order_traversal.md) | |
 | [ ] | #0297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Hard | Preorder DFS / BFS String Encoding | [Solution](09-tree/0297_serialize_and_deserialize_binary_tree.md) | |
