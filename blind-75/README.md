@@ -7,13 +7,13 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 
 ## 📊 Tiến độ hoàn thành (Progress Tracker)
 
-- **Tổng cộng**: `18 / 75` bài
+- **Tổng cộng**: `19 / 75` bài
   - 🟢 **Easy**: `18 / 19`
-  - 🟡 **Medium**: `0 / 49`
+  - 🟡 **Medium**: `1 / 49`
   - 🔴 **Hard**: `0 / 7`
 
 ```
-[███████░░░░░░░░░░░░░░░░░░░░░░░] 24.0% Completed
+[████████░░░░░░░░░░░░░░░░░░░░░░] 25.3% Completed
 ```
 
 ---
@@ -134,7 +134,7 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 | [x] | #0100 | [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | Recursive DFS | [Solution](09-tree/0100_same_tree.md) | So sánh cấu trúc và p.val == q.val |
 | [x] | #0226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Recursive DFS / BFS | [Solution](09-tree/0226_invert_binary_tree.md) | Đổi chỗ con trái - phải |
 | [ ] | #0124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Hard | Postorder DFS + Global Max | [Solution](09-tree/0124_binary_tree_maximum_path_sum.md) | Bỏ qua nhánh có tổng âm |
-| [ ] | #0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | BFS (Queue với kích thước từng tầng) | [Solution](09-tree/0102_binary_tree_level_order_traversal.md) | |
+| [x] | #0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | BFS (Queue với kích thước từng tầng) | [Solution](09-tree/0102_binary_tree_level_order_traversal.md) | |
 | [ ] | #0297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Hard | Preorder DFS / BFS String Encoding | [Solution](09-tree/0297_serialize_and_deserialize_binary_tree.md) | |
 | [x] | #0572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | Easy | Recursive IsSameTree traversal | [Solution](09-tree/0572_subtree_of_another_tree.md) | |
 | [ ] | #0105 | [Construct Binary Tree from Preorder and Inorder](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | Preorder Root + Inorder Partition | [Solution](09-tree/0105_construct_binary_tree_from_preorder_and_inorder_traversal.md) | Dùng Hash Map cho Inorder |
