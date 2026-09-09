@@ -8,8 +8,8 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 ## 📊 Tiến độ hoàn thành (Progress Tracker)
 
 - **Tổng cộng**: `18 / 75` bài
-  - 🟢 **Easy**: `18 / 20`
-  - 🟡 **Medium**: `0 / 48`
+  - 🟢 **Easy**: `18 / 19`
+  - 🟡 **Medium**: `0 / 49`
   - 🔴 **Hard**: `0 / 7`
 
 ```
