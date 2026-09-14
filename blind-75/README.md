@@ -7,13 +7,13 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 
 ## 📊 Tiến độ hoàn thành (Progress Tracker)
 
-- **Tổng cộng**: `21 / 75` bài
+- **Tổng cộng**: `22 / 75` bài
   - 🟢 **Easy**: `18 / 19`
-  - 🟡 **Medium**: `3 / 49`
+  - 🟡 **Medium**: `4 / 49`
   - 🔴 **Hard**: `0 / 7`
 
 ```
-[████████░░░░░░░░░░░░░░░░░░░░░░] 28.0% Completed
+[█████████░░░░░░░░░░░░░░░░░░░░░] 29.3% Completed
 ```
 
 ---
@@ -140,7 +140,7 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 | [ ] | #0105 | [Construct Binary Tree from Preorder and Inorder](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | Preorder Root + Inorder Partition | [Solution](09-tree/0105_construct_binary_tree_from_preorder_and_inorder_traversal.md) | Dùng Hash Map cho Inorder |
 | [x] | #0098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | DFS với Min/Max Range / Inorder | [Solution](09-tree/0098_validate_binary_search_tree.md) | Inorder của BST luôn tăng dần |
 | [x] | #0230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | Inorder Traversal / Early Exit | [Solution](09-tree/0230_kth_smallest_element_in_a_bst.md) | Inorder + nonlocal k, dừng khi k == 0 |
-| [ ] | #0235 | [Lowest Common Ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Medium | BST Properties (Chia nhánh) | [Solution](09-tree/0235_lowest_common_ancestor_of_a_binary_search_tree.md) | $O(\log N)$ |
+| [x] | #0235 | [Lowest Common Ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Medium | BST Properties (Chia nhánh) | [Solution](09-tree/0235_lowest_common_ancestor_of_a_binary_search_tree.md) | Vòng lặp $O(1)$ Space, chia nhánh tại LCA |
 | [ ] | #0208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | Trie Node (Children map + isEnd) | [Solution](09-tree/0208_implement_trie_prefix_tree.md) | Cấu trúc dữ liệu Trie cơ bản |
 | [ ] | #0211 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | Medium | Trie + DFS Backtracking (cho dấu `.`) | [Solution](09-tree/0211_design_add_and_search_words_data_structure.md) | |
 | [ ] | #0212 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | Hard | Trie + 2D Grid DFS Backtracking | [Solution](09-tree/0212_word_search_ii.md) | Tối ưu với Trie pruning |
