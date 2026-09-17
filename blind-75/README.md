@@ -7,13 +7,13 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 
 ## 📊 Tiến độ hoàn thành (Progress Tracker)
 
-- **Tổng cộng**: `22 / 75` bài
+- **Tổng cộng**: `23 / 75` bài
   - 🟢 **Easy**: `18 / 19`
-  - 🟡 **Medium**: `4 / 49`
+  - 🟡 **Medium**: `5 / 49`
   - 🔴 **Hard**: `0 / 7`
 
 ```
-[█████████░░░░░░░░░░░░░░░░░░░░░] 29.3% Completed
+[█████████░░░░░░░░░░░░░░░░░░░░░] 30.7% Completed
 ```
 
 ---
@@ -137,7 +137,7 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 | [x] | #0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | BFS (Queue với kích thước từng tầng) | [Solution](09-tree/0102_binary_tree_level_order_traversal.md) | |
 | [ ] | #0297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Hard | Preorder DFS / BFS String Encoding | [Solution](09-tree/0297_serialize_and_deserialize_binary_tree.md) | |
 | [x] | #0572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | Easy | Recursive IsSameTree traversal | [Solution](09-tree/0572_subtree_of_another_tree.md) | |
-| [ ] | #0105 | [Construct Binary Tree from Preorder and Inorder](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | Preorder Root + Inorder Partition | [Solution](09-tree/0105_construct_binary_tree_from_preorder_and_inorder_traversal.md) | Dùng Hash Map cho Inorder |
+| [x] | #0105 | [Construct Binary Tree from Preorder and Inorder](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | Preorder Root + Inorder Partition | [Solution](09-tree/0105_construct_binary_tree_from_preorder_and_inorder_traversal.md) | Hash Map $O(1)$ lookup + con trỏ biên |
 | [x] | #0098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | DFS với Min/Max Range / Inorder | [Solution](09-tree/0098_validate_binary_search_tree.md) | Inorder của BST luôn tăng dần |
 | [x] | #0230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | Inorder Traversal / Early Exit | [Solution](09-tree/0230_kth_smallest_element_in_a_bst.md) | Inorder + nonlocal k, dừng khi k == 0 |
 | [x] | #0235 | [Lowest Common Ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Medium | BST Properties (Chia nhánh) | [Solution](09-tree/0235_lowest_common_ancestor_of_a_binary_search_tree.md) | Vòng lặp $O(1)$ Space, chia nhánh tại LCA |
