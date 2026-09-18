@@ -7,13 +7,13 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 
 ## 📊 Tiến độ hoàn thành (Progress Tracker)
 
-- **Tổng cộng**: `23 / 75` bài
+- **Tổng cộng**: `24 / 75` bài
   - 🟢 **Easy**: `18 / 19`
-  - 🟡 **Medium**: `5 / 49`
+  - 🟡 **Medium**: `6 / 49`
   - 🔴 **Hard**: `0 / 7`
 
 ```
-[█████████░░░░░░░░░░░░░░░░░░░░░] 30.7% Completed
+[██████████░░░░░░░░░░░░░░░░░░░░] 32.0% Completed
 ```
 
 ---
@@ -39,7 +39,7 @@ Mỗi bài tập được phân loại theo Dạng bài (Topic), kèm theo phân
 ### 2. Binary / Bit Manipulation (Thao tác bit) — `02-binary/`
 | Status | ID | Tên bài | Difficulty | Pattern / Key Technique | Solution | Ghi chú |
 | :---: | :---: | :--- | :---: | :--- | :---: | :--- |
-| [ ] | #0371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | Medium | Bitwise XOR & AND (Carry) | [Solution](02-binary/0371_sum_of_two_integers.md) | Không dùng toán tử `+`, `-` |
+| [x] | #0371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | Medium | Bitwise XOR & AND (Carry) | [Solution](02-binary/0371_sum_of_two_integers.md) | Không dùng toán tử `+`, `-` \| Mặt nạ 32-bit |
 | [x] | #0191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | Brian Kernighan (`n & (n - 1)`) | [Solution](02-binary/0191_number_of_1_bits.md) | Xóa bit 1 thấp nhất |
 | [x] | #0338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | DP + Bit Manipulation | [Solution](02-binary/0338_counting_bits.md) | `ans[i] = ans[i & (i - 1)] + 1` |
 | [x] | #0268 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | XOR / Gauss Sum Formula | [Solution](02-binary/0268_missing_number.md) | Tổng Gauss: $n(n+1)/2 - \sum$ |
